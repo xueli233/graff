@@ -1,0 +1,210 @@
+/*通用属性设置*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: '宋体';
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+  color: #cfcfcf;
+}
+image {
+  border: 1px solid #ededed;
+}
+li {
+  list-style: none;
+}
+em,
+i,
+s {
+  font-style: normal;
+  text-decoration: none;
+}
+a:hover {
+  color: #f40;
+}
+/*通用属性设置结束*/
+/*header的内容设置*/
+.header {
+  width: 100%;
+  background-color: #000;
+  overflow: hidden;
+  border-bottom: 1px solid #fff;
+}
+.header .headContent {
+  /*head内容包裹*/
+  width: 1200px;
+  height: 198px;
+  margin: 0 auto;
+  background-color: #000;
+}
+.header .headContent .loginbar {
+  /*登陆、注册*/
+  width: 100px;
+  line-height: 48px;
+  float: left;
+  padding-left: 49px;
+}
+.header .headContent .loginbar li {
+  float: left;
+  color: #cfcfcf;
+}
+.header .headContent .loginbar li a {
+  padding: 0 3px;
+}
+.header .headContent .logo {
+  /*公司Logo*/
+  display: block;
+  background: url(../images/index/logo.png) no-repeat 0 45px;
+  width: 300px;
+  height: 110px;
+  margin: 0 auto;
+  padding-top: 45px;
+}
+.header .headContent .headRight {
+  /*head右边三横线图标*/
+  float: right;
+  width: 42px;
+  height: 46px;
+  line-height: 46;
+}
+.header .headContent .headRight a {
+  float: left;
+  background: url(../images/index/icon_1.png) 0 0 no-repeat;
+  width: 25px;
+  height: 20px;
+  margin-top: 13px;
+}
+.header .headContent .headNav {
+  /*head导航部分*/
+  width: 1200px;
+  margin: 6px auto 0;
+}
+.header .headContent .headNav li.current {
+  border-bottom: 1px solid #fff;
+}
+.header .headContent .headNav li {
+  float: left;
+  width: 240px;
+  line-height: 36px;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+.header .headContent .headNav li a {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: '微软雅黑';
+}
+/*header的内容设置结束*/
+/*banner的内容设置*/
+.banner {
+  width: 100%;
+  height: 700px;
+  background: url(../images/index/banner.gif) no-repeat center center;
+  background-size: 100% 100%;
+}
+/*banner的内容设置结束*/
+/*footer的内容部分*/
+.footer {
+  width: 100%;
+  height: 300px;
+  background-color: #000000;
+}
+.footer .footContent {
+  /*foot内容容器*/
+  width: 100%;
+  height: 227px;
+  border-bottom: 1px solid #6e6e6e;
+  margin: 0 auto;
+  padding-top: 26px;
+}
+.footer .footContent ul {
+  width: 1329px;
+  height: 132px;
+  margin: 0 auto;
+  padding-left: 131px;
+}
+.footer .footContent ul li {
+  float: left;
+  width: 325px;
+  height: 132px;
+}
+.footer .footContent ul li h5 {
+  color: #fff;
+}
+.footer .footContent ul li p {
+  color: #fff;
+}
+.footer .footContent ul .graff {
+  /*GRAFF*/
+}
+.footer .footContent ul .graff h5 {
+  line-height: 72px;
+  font-size: 24px;
+  text-indent: 102px;
+  font-family: Times New Roman Regular;
+}
+.footer .footContent ul .graff p {
+  text-indent: 14px;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Times New Roman Regular;
+}
+.footer .footContent ul .attention {
+  /*关注*/
+}
+.footer .footContent ul .attention h5 {
+  font-size: 20px;
+  text-indent: 44px;
+  line-height: 62px;
+}
+.footer .footContent ul .attention p {
+  padding-left: 60px;
+}
+.footer .footContent ul .attention p a {
+  float: left;
+  width: 50px;
+  height: 60px;
+  padding: 0 10px;
+}
+.footer .footContent ul .attention p .weibo {
+  background: url(../images/index/weibo.png) no-repeat center center;
+}
+.footer .footContent ul .attention p .qq {
+  background: url(../images/index/qq.png) no-repeat center center;
+}
+.footer .footContent ul .attention p .wechat {
+  background: url(../images/index/wechat.gif) no-repeat center center;
+  width: 54px;
+}
+.footer .footContent ul .feedBack {
+  /*售后反馈*/
+}
+.footer .footContent ul .feedBack h5 {
+  font-size: 20px;
+  text-indent: 62px;
+  line-height: 58px;
+}
+.footer .footContent ul .feedBack p {
+  line-height: 44px;
+  font-size: 18px;
+  text-indent: 90px;
+}
+.footer .footContent ul .tell {
+  /*P.c : 1008611*/
+}
+.footer .footContent ul .tell p {
+  font-size: 18px;
+  text-indent: 76px;
+  margin-top: 72px;
+}
+.footer .copyright p {
+  /*copyright*/
+  line-height: 46px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-family: Arial Regular;
+}
+/*footer的内容部分结束*/

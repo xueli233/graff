@@ -1,0 +1,323 @@
+/*三角实心内容部分*/
+.triangle-down,
+.triangle-left,
+.triangle-right {
+  position: relative;
+  width: 0;
+  height: 0;
+}
+.triangle-down {
+  float: left;
+  border-left: 83px solid transparent;
+  border-right: 83px solid transparent;
+  border-top: 108px solid black;
+}
+.triangle-right {
+  float: left;
+  border-top: 83px solid transparent;
+  border-bottom: 83px solid transparent;
+  border-left: 108px solid black;
+}
+.triangle-left {
+  float: right;
+  border-top: 83px solid transparent;
+  border-bottom: 83px solid transparent;
+  border-right: 108px solid black;
+  padding-left: 34px;
+}
+/*年内容填充*/
+.year-r,
+.year-d,
+.year-l {
+  position: absolute;
+  color: #ffffff;
+  width: 84px;
+  font-size: 24px;
+}
+.year-r {
+  left: -100px;
+  top: -10px;
+}
+.year-d {
+  left: -35px;
+  top: -85px;
+}
+.year-l {
+  left: 60px;
+  top: -15px;
+}
+/*三角实心内容部分结束*/
+/*banner的内容设置*/
+.banner {
+  width: 100%;
+  height: 700px;
+  background: url(../images/brand_introduct/banner.gif) no-repeat center center;
+  background-size: 100% 100%;
+}
+.banner .banCon {
+  width: 1125px;
+  margin: 0 auto;
+  padding-top: 184px;
+  padding-left: 75px;
+}
+.banner .banCon h1 {
+  font-size: 64px;
+  color: #fbfbfb;
+  line-height: 100px;
+}
+.banner .banCon p {
+  font-size: 56px;
+  padding-left: 80px;
+  color: #fbfbfb;
+  line-height: 88px;
+}
+.banner .banCon span {
+  display: block;
+  font-size: 18px;
+  padding-left: 210px;
+  color: #fbfbfb;
+  line-height: 78px;
+}
+/*banner的内容设置结束*/
+/*main的内容部分*/
+.main {
+  width: 100%;
+  background-color: #f6f6f6;
+}
+.main .main-c {
+  width: 1162px;
+  height: 1800px;
+  padding-right: 38px;
+  background: #fff url(../images/brand_introduct/main-bg.gif) no-repeat 122px 75px;
+  margin: 0 auto;
+}
+.main .main-c .main-t {
+  /*顶部*/
+  padding-top: 12px;
+  height: 450px;
+}
+.main .main-c .main-t .container-1950 {
+  /*1950年*/
+  width: 725px;
+  height: 164px;
+  float: left;
+  position: relative;
+}
+.main .main-c .main-t .container-1950 .graff {
+  float: left;
+  width: 114px;
+  height: 164px;
+}
+.main .main-c .main-t .container-1950 .graff span {
+  display: block;
+  font-size: 36px;
+  height: 54px;
+  padding-top: 24px;
+  text-indent: 14px;
+}
+.main .main-c .main-t .container-1950 .graff em {
+  display: block;
+  text-indent: 58px;
+  line-height: 20px;
+  font-size: 18px;
+}
+.main .main-c .main-t .container-1950 .detail {
+  width: 306px;
+  height: 108px;
+  background: #f7f7f7;
+  margin-left: 114px;
+  padding-left: 132px;
+  padding-top: 16px;
+  margin-top: 21px;
+}
+.main .main-c .main-t .container-1950 .detail p {
+  line-height: 24px;
+}
+.main .main-c .main-t .container-1960 {
+  /*1960年*/
+  float: left;
+  width: 369px;
+  height: 108px;
+  padding-left: 356px;
+  margin-top: 31px;
+}
+.main .main-c .main-t .container-1962 {
+  /*1962*/
+  float: left;
+  width: 160px;
+  height: 108px;
+  padding-left: 565px;
+  margin-top: 31px;
+}
+.main .main-c .main-t .main-t-r {
+  /*右边图片加文字容器*/
+  width: 434px;
+  height: 362px;
+  float: right;
+  padding-top: 30px;
+}
+.main .main-c .main-t .main-t-r img {
+  width: 248px;
+  height: 242px;
+  float: left;
+  padding-right: 20px;
+}
+.main .main-c .main-t .main-t-r h3 {
+  height: 54px;
+  padding-left: 272px;
+  padding-top: 8px;
+}
+.main .main-c .main-t .main-t-r h3 span {
+  font-size: 36px;
+  float: left;
+}
+.main .main-c .main-t .main-t-r h3 em {
+  font-size: 18px;
+  float: left;
+  margin-top: 28px;
+}
+.main .main-c .main-t .main-t-r p {
+  width: 247px;
+  height: 300px;
+  line-height: 36px;
+  margin-left: 130px;
+  padding-right: 30px;
+  padding-left: 26px;
+  background-color: #f7f7f7;
+}
+.main .main-c .main-bd {
+  /*中间*/
+  padding-top: 6px;
+  height: 426px;
+}
+.main .main-c .main-bd .main-bd-l {
+  /*左右图片加内容块*/
+  float: left;
+  width: 537px;
+  height: 383px;
+  margin-left: 64px;
+}
+.main .main-c .main-bd .main-bd-l img {
+  float: right;
+  width: 362px;
+  height: 220px;
+  padding-left: 16px;
+}
+.main .main-c .main-bd .main-bd-l p {
+  width: 369px;
+  height: 234px;
+  line-height: 33px;
+  padding: 6px 26px 0 12px;
+  background-color: #f7f7f7;
+  margin-top: 123px;
+}
+.main .main-c .main-bd .container-1967 {
+  /*1967年*/
+  height: 108px;
+  width: 356px;
+  padding-left: 203px;
+  float: right;
+}
+.main .main-c .main-bd .container-1970 {
+  /*1970年*/
+  float: right;
+  width: 558px;
+  height: 162px;
+}
+.main .main-c .main-bd .container-1970 p {
+  width: 402px;
+  height: 108px;
+  background-color: #f7f7f7;
+  margin-left: 96px;
+  margin-top: 26px;
+  line-height: 26px;
+  padding-left: 36px;
+  padding-top: 4px;
+}
+.main .main-c .main-bd .container-1973 {
+  /*1973年*/
+  height: 108px;
+  width: 356px;
+  padding-left: 203px;
+  margin-top: 5px;
+  float: right;
+}
+.main .main-c .main-bot {
+  /*底部*/
+}
+.main .main-c .main-bot .container-1977 {
+  /*1977年*/
+  width: 598px;
+  height: 108px;
+  float: right;
+}
+.main .main-c .main-bot .container-1974 {
+  /*1974年*/
+  float: left;
+  height: 108px;
+  padding-left: 355px;
+  margin-top: 112px;
+}
+.main .main-c .main-bot .main-bot-r {
+  /*右边的内容和图片容器*/
+  float: right;
+  width: 536px;
+  height: 196px;
+  margin-top: 55px;
+}
+.main .main-c .main-bot .main-bot-r img {
+  float: left;
+  width: 398px;
+  height: 240px;
+  padding-right: 12px;
+}
+.main .main-c .main-bot .main-bot-r p {
+  width: 324px;
+  height: 256px;
+  text-indent: 20px;
+  line-height: 36px;
+  margin-top: 136px;
+  margin-left: 179px;
+  padding: 4px 30px 0 16px;
+  background-color: #f7f7f7;
+}
+.main .main-c .main-bot .container-1979 {
+  /*1979年*/
+  float: left;
+  width: 466px;
+  height: 165px;
+  margin-left: 62px;
+  margin-top: 19px;
+}
+.main .main-c .main-bot .container-1979 p {
+  width: 224px;
+  height: 97px;
+  background-color: #f7f7f7;
+  margin-top: 29px;
+  line-height: 24px;
+  padding: 12px 42px 0 137px;
+}
+.main .main-c .main-bot .container-1982 {
+  /*1982年*/
+  float: left;
+  width: 369px;
+  height: 108px;
+  padding-left: 356px;
+  margin-top: 56px;
+}
+.main .main-c .main-bot .container-1983 {
+  /*1983年*/
+  float: left;
+  width: 550px;
+  height: 108px;
+  padding-left: 608px;
+  margin-top: 48px;
+}
+.main .main-c .main-bot .container-1984 {
+  /*1984年*/
+  float: right;
+  width: 276px;
+  height: 108px;
+  margin-top: 30px;
+}
+/*main的内容部分结束*/

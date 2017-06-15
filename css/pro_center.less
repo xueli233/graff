@@ -1,0 +1,218 @@
+/*通用样式设置*/
+
+/*通用样式设置结束*/
+
+/*banner的样式*/
+.banner{
+  width: 100%;
+  background: url(../images/pro_center/banner.gif) center center no-repeat;
+  background-size:100% 100%;
+  height: 700px;
+  .subNav{
+    /*二级菜单*/
+    width: 720px;
+    margin:0 auto;
+    li{
+      width: 240px;
+      line-height: 50px;
+      text-align: center;
+      background-color: #000;
+      float: left;
+      margin-bottom:83px;
+      a{
+        font-size:16px;
+        font-family:'微软雅黑';
+        color: #e2e2e2;
+      }
+    }
+  }
+  p{
+    width: 920px;
+    margin: 0 auto;
+    line-height: 86px;
+    font-family:'方正兰亭超细黑简体';
+    font-size:60px;
+    color: #f2f2f2;
+  }
+  p:nth-last-child(1){
+    text-indent:128px;
+  }
+}
+/*banner的样式结束*/
+/*main的样式*/
+.main{
+  width: 100%;
+  background-color: #f7f7f7;
+  a{
+    color: #000;
+  }
+  .main-container{
+    /*main容器*/
+    width: 1200px;
+    //height:2000px;
+    overflow: hidden;
+    background: #fff;
+    margin: 0 auto;
+    .main-title{
+      /*顶部标题*/
+      padding:12px;
+      height: 86px;
+      background-color: #000;
+      ul{
+        float: left;
+        li{
+          float: left;
+          padding:0 6px;
+          text-align: center;
+          color: #eaeaea;
+          a{
+            font-family:'微软雅黑';
+            color: #eaeaea;
+          }
+        }
+      }
+      .main-t-en{
+        font-size:24px;
+        font-family:Arial Regular;
+        text-align: center;
+        width: 240px;
+        line-height: 20px;
+        margin:0 auto;
+        padding-top:25px;
+        color: #ffffff;
+      }
+      .main-c-cn{
+        font-size: 18px;
+        font-family:'微软雅黑';
+        width: 120px;
+        line-height: 20px;
+        margin: 0 auto;
+        padding-left:292px;
+        color: #fff;
+      }
+    }
+    .main-nav{
+      /*顶部导航*/
+      padding-left:303px;
+      overflow: hidden;
+      li.current{
+        border-bottom: 4px solid #000;
+      }
+      li{
+        float: left;
+        width: 100px;
+        height: 40px;
+        line-height: 40px;
+        margin-right:129px;
+        border-bottom: 4px solid #818181;
+        text-align: center;
+        a{
+          font-family:'微软雅黑';
+          font-size:18px;
+        }
+      }
+    }
+    .main-subNav{
+      /*顶部子导航*/
+      margin-top:16px;
+      overflow: hidden;
+      li.current{
+        background: #000;
+        a{color: #fff;}
+
+      }
+      li{
+        float: left;
+        width: 14.28%;
+        background-color: #f7f7f7;
+        text-align: center;
+        line-height:42px;
+        a{
+          font-size:16px;
+          font-family:'微软雅黑';
+        }
+      }
+    }
+    .main-list{
+      /*中间图片列表*/
+      overflow: hidden;
+      padding-left:75px;
+      li:hover .shade{
+        z-index: 9;
+      }
+      li{
+        width: 300px;
+        height: 477px;
+        //background-color: goldenrod;
+        float: left;
+        position: relative;
+        margin-right:75px;
+        img{
+          position: absolute;
+          border: 1px solid #eaeaea;
+          width: 298px;
+          height: 400px;
+          z-index: 8;
+        }
+        .shade{
+          position: absolute;
+          float: left;
+          width: 300px;
+          height: 400px;
+          background-color: rgba(0,0,0,0.7);
+          .shade-t,.shade-c{
+            text-align: center;
+            color: #fff;
+          }
+          .shade-t{
+            font-size: 18px;
+            font-family:'微软雅黑';
+            line-height: 56px;
+            margin-top:116px;
+          }
+          .shade-c{
+            font-size:14px;
+            font-family:'宋体';
+            line-height: 48px;
+            margin-top:39px;
+          }
+          .shade-b{
+            font-size:14px;
+            font-family:'宋体';
+            color: #fff;
+            margin:5px 0 0 210px;
+          }
+        }
+        .shop-car{
+          width: 90px;
+          position: absolute;
+          top:400px;
+          height: 34px;
+          padding-left:54px;
+          background: url(../images/pro_center/shop-car.gif)no-repeat left center;
+          line-height: 34px;
+          margin-top:19px;
+          margin-left:84px;
+        }
+      }
+    }
+    .main-bot{
+      /*底部页码*/
+      height: 180px;
+      padding-top:36px;
+      ul{
+        width: 230px;
+        margin:0 auto;
+        li{
+          float: left;
+          font-size:36px;
+          padding:0 14px;
+          a{
+            font-size:36px;
+          }
+        }
+      }
+    }
+  }
+}
+/*main的样式结束*/

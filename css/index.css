@@ -1,0 +1,187 @@
+/*section的内容部分*/
+.section {
+  width: 100%;
+  background-color: #f7f7f7;
+}
+.section .secTop-bg {
+  /*清新淡雅,高贵庄严*/
+  background: url(../images/index/sec_bg1.gif) no-repeat center center;
+  background-size: 100% 100%;
+  height: 700px;
+}
+.section .secTop-bg div {
+  /*统一样式设置*/
+  height: 140px;
+  margin: 0 auto;
+  width: 362px;
+  padding-top: 20px;
+  font-family: "Regular";
+}
+.section .secTop-bg div h3 {
+  line-height: 72px;
+  font-size: 46px;
+}
+.section .secTop-bg div p {
+  font-size: 30px;
+  line-height: 38px;
+}
+.section .secTop-bg .imgRight {
+  /*右边图片文字*/
+}
+.section .secTop-bg .imgRight h3 {
+  text-indent: 60px;
+}
+.section .secTop-bg .imgRight p {
+  text-indent: 106px;
+}
+.section .secTop-bg .imgLeft {
+  /*左边图片文字*/
+  margin-top: 378px;
+}
+.section .secTop-bg .imgLeft h3 {
+  text-indent: 42px;
+}
+.section .secTop-bg .imgLeft p {
+  text-indent: 5px;
+}
+.section .secBot-bg {
+  /*情定一钻,缘起三生*/
+  background: url(../images/index/sec_bg2.gif) no-repeat center center;
+  background-size: 100% 100%;
+  height: 700px;
+}
+.section .secBot-bg .imgLeft {
+  /*左边图片文字*/
+  width: 692px;
+  height: 192px;
+  padding-top: 22px;
+  margin: 0 auto;
+}
+.section .secBot-bg .imgLeft h3 {
+  font-size: 60px;
+  line-height: 98px;
+}
+.section .secBot-bg .imgLeft h3:nth-child(1) {
+  text-indent: 32px;
+}
+.section .secBot-bg .imgLeft h3:nth-child(2) {
+  text-indent: 152px;
+}
+.section .secBot-bg .imgRight {
+  /*右边图片文字*/
+  width: 1282px;
+  height: 272px;
+  margin: 193px auto 0;
+  padding-top: 22px;
+  padding-left: 20px;
+}
+.section .secBot-bg .imgRight h3 {
+  font-size: 44px;
+  color: #f9f9f9;
+  line-height: 50px;
+}
+.section .secBot-bg .imgRight .text1 {
+  text-indent: 680px;
+}
+.section .secBot-bg .imgRight .text3 {
+  text-indent: 590px;
+  padding-bottom: 20px;
+}
+.section .secBot-bg .imgRight p {
+  font-size: 16px;
+  color: #9a9a9a;
+  line-height: 50px;
+}
+.section .secBot-bg .imgRight .text2 {
+  text-indent: 640px;
+}
+.section .secBot-bg .imgRight .text4 {
+  text-indent: 540px;
+}
+.section .secBot-bg .imgRight .text5 {
+  text-indent: 496px;
+}
+.section .secList {
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+  /*图片展示列表*/
+}
+.section .secList .list-h {
+  /*头部标题*/
+  padding-top: 30px;
+  padding-left: 80px;
+  height: 53px;
+  overflow: hidden;
+}
+.section .secList .list-h h3 {
+  float: left;
+}
+.section .secList .list-h h3 b {
+  float: left;
+  font-size: 48px;
+  text-align: start;
+  font-family: Aparajita Regular;
+}
+.section .secList .list-h h3 em {
+  font-size: 48px;
+  margin: 10px 26px 0 14px ;
+  float: left;
+}
+.section .secList .list-h h3 span {
+  float: left;
+  font-size: 24px;
+  margin-top: 28px;
+}
+.section .secList .list-h ul {
+  float: right;
+}
+.section .secList .list-h ul li {
+  float: left;
+  font-size: 36px;
+  padding: 0 17px;
+  color: #666;
+}
+.section .secList .list-h ul li a {
+  font-size: 36px;
+}
+.section .secList .list-bd {
+  /*中间图片展示*/
+  padding-left: 70px;
+  padding-top: 30px;
+  overflow: hidden;
+}
+.section .secList .list-bd li {
+  float: left;
+  margin-right: 70px;
+}
+.section .secList .list-bot {
+  /*底部点击进入*/
+  padding: 40px 0;
+}
+.section .secList .list-bot h3 {
+  width: 244px;
+  height: 48px;
+  border: 1px solid #040404;
+  margin: 0 auto;
+  padding-left: 54px;
+}
+.section .secList .list-bot h3 a {
+  color: #000;
+}
+.section .secList .list-bot h3 a b {
+  font-size: 30px;
+  float: left;
+  line-height: 48px;
+}
+.section .secList .list-bot h3 a em {
+  font-size: 20px;
+  float: left;
+  padding: 23px 11px 0;
+}
+.section .secList .list-bot h3 a span {
+  font-size: 20px;
+  float: left;
+  padding-top: 23px;
+}
+/*section的内容部分结束*/

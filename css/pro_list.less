@@ -1,0 +1,245 @@
+﻿/*通用属性设置*/
+.clear:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+/*main的内容样式*/
+.main{
+  width: 100%;
+  overflow: hidden;
+  background-color: #f6f6f6;
+  .subNav{
+    width: 1200px;
+    overflow: hidden;
+    margin:0 auto;
+    background: #4f4f4f;
+    height: 183px;
+    ul{
+      /*二级菜单*/
+      width: 720px;
+      margin:0 auto;
+      overflow: hidden;
+      li{
+        width: 240px;
+        line-height: 50px;
+        text-align: center;
+        background-color: #000;
+        float: left;
+        //margin-bottom:83px;
+        a{
+          font-size:16px;
+          font-family:'微软雅黑';
+          color: #e2e2e2;
+        }
+      }
+    }
+    div{
+      /*通用属性设置*/
+      font-family:Arial Regular;
+      font-size:30px;
+      float: left;
+      color: #fff;
+    }
+    .subNav-l{
+      /*左边的内容*/
+      float: left;
+      line-height: 49px;
+      padding-left:20px;
+      width: 456px;
+      em{
+        float: right;
+        font-size:24px;
+        line-height: 24px;
+        margin-top:16px;
+        font-family: Arial Regular;
+        margin-left:12px;
+      }
+    }
+    .subNav-c p{
+      /*中间的内容*/
+      line-height: 98px;
+      font-size: 24px;
+      width: 167px;
+      padding-left:150px;
+    }
+    .subNav-r p{
+      /*右边的内容*/
+      height: 38px;
+      width: 110px;
+      font-size:16px;
+      padding-top:60px;
+      padding-left:210px;
+      font-family:'微软雅黑';
+      background: url(../images/pro_list/globle.gif) no-repeat 234px 34px;
+    }
+  }
+  .parameters{
+    /*产品参数*/
+    width: 1174px;
+    margin:0 auto;
+    background-color: #f9f9f9;
+    padding-left:18px;
+    padding-bottom:26px;
+    overflow: hidden;
+    >img{
+      width: 400px;
+      height: 400px;
+      float: left;
+    }
+    .par-h{
+      float: right;
+      width: 642px;
+      height: 94px;
+      line-height: 94px;
+      font-size: 24px;
+      font-family:Arial;
+      padding-left:120px;
+      span{
+        position: relative;
+        line-height: 20px;
+        font-size: 18px;
+        font-family:'微软雅黑';
+        margin-top:54px;
+        top:14px;
+        //margin-right:334px;
+      }
+    }
+    .par-bd{
+      float: right;
+      width: 762px;
+      height: 258px;
+      img{
+        float: left;
+        padding-right:70px;
+      }
+      p{
+        line-height: 45px;
+        margin-top:17px;
+        font-size: 16px;
+        font-family:'微软雅黑';
+      }
+    }
+  }
+  .design{
+    /*设计理念顶部背景图片*/
+    width: 100%;
+    height: 900px;
+    .design-bg{
+      height: 500px;
+      //padding-top: 448px;
+      background: url(../images/pro_list/design-1.gif)  no-repeat;
+      background-size:100% 100%;
+    }
+    //overflow: hidden;
+    .design-c {
+      /*底部容器*/
+      width: 1200px;
+      margin: 0 auto;
+      img {
+        float: left;
+        width: 650px;
+        height: 450px;
+      }
+      .des-c-t {
+        /*上文字块*/
+        float: left;
+        width: 506px;
+        height: 240px;
+        background-color: #e2e2e2;
+        margin-bottom: 2px;
+        padding: 0 22px;
+        font-family: '宋体';
+        line-height: 30px;
+        .title {
+          /*设计理念*/
+          line-height: 56px;
+          font-size: 18px;
+          font-family: '微软雅黑';
+          span {
+            position: relative;
+            font-family: '微软雅黑';
+            font-size: 18px;
+            top: 14px;
+            left: 6px;
+          }
+        }
+        .content {
+          /*内容部分*/
+          text-indent: 28px;
+          padding-top: 10px;
+          font-size: 14px;
+        }
+      }
+      .des-c-b {
+        /*下字块*/
+        float: left;
+        width: 506px;
+        height: 208px;
+        background-color: #e2e2e2;
+        padding: 0 22px;
+        .title {
+          /*象征意义*/
+          line-height: 56px;
+          font-size: 18px;
+          font-family: 微软雅黑;
+          padding-left: 8px;
+          span {
+            position: relative;
+            top: 6px;
+            left: 8px;
+            font-size: 14px;
+            font-family: 微软雅黑;
+          }
+        }
+        .content {
+          /*内容部分*/
+          font-family: 宋体;
+          font-size: 14px;
+          line-height: 30px;
+          padding-top: 14px;
+        }
+      }
+    }
+  }
+  .identification{
+    /*鉴别方法*/
+    width: 1200px;
+    margin: 0 auto;
+    background-color: gold;
+    .i-title{
+      /*标题部分*/
+      line-height: 70px;
+      height: 70px;
+      padding-left:332px;
+      font-size: 24px;
+      font-family:微软雅黑;
+      span{
+        position: relative;
+        top:16px;
+        font-size: 18px;
+        font-family:微软雅黑;
+      }
+    }
+    .i-bd{
+      /*内容部分*/
+      img{
+        float: right;
+        width: 650px;
+        height: 410px;
+        padding-top:35px;
+      }
+      div{
+        width: 648px;
+        height: 400px;
+        background-color: #e2e2e2;
+        padding:80px 0 0 60px;
+        p{
+          line-height: 48px;
+          font-family:宋体;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
